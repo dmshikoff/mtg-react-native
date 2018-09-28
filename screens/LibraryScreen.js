@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Button from "../components/Button";
 import FontText from "../components/FontText";
 import Checkbox from "../components/Checkbox";
-import { images } from "../Lands";
+import { images } from "../constants/Lands";
 
 import {
   StyleSheet,
