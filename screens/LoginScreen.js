@@ -42,7 +42,7 @@ class Login extends Component {
           </Container>
           <Container>
             <Button
-              label="CANCEL"
+              label="New User"
               styles={{ label: styles.buttonBlackText }}
               onPress={this.helloWorld}
             />

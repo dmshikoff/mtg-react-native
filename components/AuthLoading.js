@@ -7,7 +7,7 @@ class AuthLoadingScreen extends Component {
     }
 
     componentDidMount = async => {
-        const token = await AsyncStorgage.getItem("MTGToken")
+        const token = await AsyncStorage.getItem("MTGToken")
         this.props.navigation.navigate(token ? "Home" : "Auth")
     }
 
